@@ -2,7 +2,7 @@
 
 from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout
 from PyQt6.QtCore import Qt
-from models.vote_manager import VoteManager
+from vote_manager import VoteManager
 
 class ResultsWindow(QWidget):
     """Window that shows vote results."""
